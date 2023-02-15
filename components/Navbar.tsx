@@ -25,7 +25,7 @@ const Navbar = () => {
               <h2 className="text-2xl font-bold">Balint Korosi</h2>
             </div>
             <div className="md:hidden">
-              <button>
+              <button onClick={() => setNavbar(!navbar)}>
                 {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
               </button>
             </div>
@@ -37,9 +37,26 @@ const Navbar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center  justify-center md:flex md:space-x-6">
+            <div className="flex flex-col items-center justify-center md:flex-row md:justify-center md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
-                return <a key={idx}>{item.label}</a>;
+                // return <a key={idx}>{item.label}</a>;
+                // return <Link>{item.label}</Link>;
+
+                return (
+                  <Link
+                    key={idx}
+                    to={item.page}
+                    className={"text-neutral-100"}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    {item.label}
+                  </Link>
+                );
               })}
             </div>
           </div>
