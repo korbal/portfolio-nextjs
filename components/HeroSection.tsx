@@ -19,10 +19,10 @@ const HeroSection = () => {
         </div>
         <div className="md:w-3/5">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
-            Hi, I'm Balint!
+            Hi, I&apos;m Balint!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I'm a{" "}
+            I&apos;m a{" "}
             <span className="font-semibold text-teal-600">
               software engineer
             </span>{" "}
@@ -41,15 +41,15 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex justify-center flex-row">
-        <Link
-          href="#about"
+        {/* <Link
+          href="about"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
-        >
-          <HiArrowDown size={35} className="animate-bounce" />
-        </Link>
+        > */}
+        <HiArrowDown size={35} className="animate-bounce" />
+        {/* </Link> */}
       </div>
     </section>
   );
