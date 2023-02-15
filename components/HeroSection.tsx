@@ -42,7 +42,7 @@ const HeroSection = () => {
       </div>
       <div className="flex justify-center flex-row">
         <Link
-          href="about"
+          href="#about"
           spy={true}
           smooth={true}
           offset={-100}
