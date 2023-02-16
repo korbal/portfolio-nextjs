@@ -22,13 +22,12 @@ const HeroSection = () => {
             Hi, I&#39;m Balint!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
-            </span>
-            based in Los Angeles, CA. Working towards creating software that
-            makes life easier and more meaningful.
+            I&apos;m committed to commit code for
+            <span className="font-semibold text-indigo-600"> 365 Days </span>
+            straight on GitHub so I can expand my skills and become a proficient
+            web developer.
           </p>
+
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
