@@ -27,9 +27,9 @@ const AboutSection = () => {
               Get to know me!
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              Lorem. ipsum dolor sit amet consectetur adipisicing elit. Quia
               doloribus unde blanditiis commodi minus doloremque nisi omnis, ea
-              et fugit numquam repellendus, vitae, voluptates eveniet iste
+              et fugit numquam repellendus, vitae, voluptates eveniet iste.
               officiis similique dolorum explicabo!
             </p>
             <br />
