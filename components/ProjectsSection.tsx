@@ -8,7 +8,7 @@ const projects = [
     name: "Can I Compost It?",
     description:
       "Searchable database of compostable items. Built with Nuxt.js, Google Sheets as database and Netlify for host.",
-    image: "/canicompostit.jpg",
+    image: "/cicidemo.gif",
     github: "https://github.com/korbal/compost-v3",
     link: "https://canicompostit.com",
   },
