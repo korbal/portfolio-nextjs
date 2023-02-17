@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+  @apply text-base leading-normal font-normal  dark:text-gray-200;
+}
+
+h1 {
+  @apply dark:text-orange-300;
+}
+
+h2 {
+  @apply dark:text-purple-400;
+}

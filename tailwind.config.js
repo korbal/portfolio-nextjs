@@ -44,3 +44,17 @@ module.exports = {
   },
   plugins: [],
 };
+
+// nightowl color palette:
+// Background: #011627     - slate-900    site background
+// Current Line: #0a1c2a   - slate-900
+// Selection: #1f4662      - cyan-900
+// Foreground: #d6deeb     - zinc-200     navbar divider, p
+// Comment: #5c6773        - gray-500
+// Cyan: #82AAFF           - indigo-400
+// Green: #c3e88d          - lime-200
+// Orange: #ffab70         - orange-300   h1
+// Pink: #c792ea           - purple-400   h2
+// Purple: #bb80b3         - zinc-400
+// Red: #f07178            - red-400
+// Yellow: #ffcb6b         - orange-300

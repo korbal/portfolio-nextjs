@@ -1,6 +1,6 @@
 function StreakStats() {
   return (
-    <div className="dark:bg-stone-900">
+    <div className="dark:bg-slate-900">
       <iframe
         // className="dark:bg-indigo-600"
         // width="100%"
