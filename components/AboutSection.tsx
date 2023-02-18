@@ -43,22 +43,22 @@ const AboutSection = () => {
           <div className="md:w-1/2">
             <h3 className="text-center  mb-6 md:text-left">What I do</h3>
             <p>
-              I'm Balint, a self-taught coder with a TAFE diploma in Business
-              Programming. I love solving real-world problems through data, code
-              and automations. I'm obsessed with optimization and running the
-              leanest possible tech stack.
+              I&#39;m Balint, a self-taught coder with a TAFE diploma in
+              Business Programming. I love solving real-world problems through
+              data, code and automations. I&#39;m obsessed with optimization and
+              running the leanest possible tech stack.
             </p>
             <br />
             <p>
-              In addition to my passion for coding, I'm also a full-stack
+              In addition to my passion for coding, I&#39;m also a full-stack
               solopreneur with over a decade of experience running online
               businesses.
             </p>
             <br />
             <p>
-              I'm committed to taking my programming skills to the next level.
-              That's why I'm coding every day for a year. Thanks for stopping by
-              my website.
+              I&#39;m committed to taking my programming skills to the next
+              level. That&#39;s why I&#39;m coding every day for a year. Thanks
+              for stopping by my website.
             </p>
             <br />
 
