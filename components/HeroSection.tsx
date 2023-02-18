@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
-import GithubStreak from "@/components/GithubStreak";
+import GithubStreak from "../components/GithubStreak";
 
 const HeroSection = () => {
   return (
