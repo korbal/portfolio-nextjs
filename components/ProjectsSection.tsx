@@ -55,7 +55,7 @@ const ProjectsSection = () => {
                   </Link>
                 </div>
                 <div className="md:w-1/2 flex flex-col justify-start ">
-                  <h3 className=" mb-6">{project.name}</h3>
+                  <h3 className=" my-6">{project.name}</h3>
                   <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                     {project.description}
                   </p>

@@ -8,7 +8,7 @@ import GithubStreak from "@/components/GithubStreak";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:pt-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center my-10 py-4 sm:py-12 md:pt-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/balint-korosi.jpg"
