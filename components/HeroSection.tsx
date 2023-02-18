@@ -47,7 +47,7 @@ const HeroSection = () => {
         <GithubStreak />
       </div>
 
-      <div className="flex flex-row items-center text-center justify-center ">
+      <div className="flex flex-row items-center text-center justify-center mt-5">
         <Link
           className="cursor-pointer"
           to="about"

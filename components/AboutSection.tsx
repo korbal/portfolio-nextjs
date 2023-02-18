@@ -1,6 +1,24 @@
 import React from "react";
 import Image from "next/image";
 
+const beliefs = [
+  {
+    belief: "Saying no",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, at.",
+  },
+  {
+    belief: "Avoid noise",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, at.",
+  },
+  {
+    belief: "Stay curious",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, at.",
+  },
+];
+
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
@@ -17,46 +35,54 @@ const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-4 md:pb-20">
-        <h1 className="text-center font-bold text-4xl">
+        <h2 className="text-center">
           About me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
-        </h1>
+        </h2>
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10">
           <div className="md:w-1/2">
-            <h2 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
-            </h2>
+            <h3 className="text-center  mb-6 md:text-left">What I do</h3>
             <p>
-              Lorem. ipsum dolor sit amet consectetur adipisicing elit. Quia
-              doloribus unde blanditiis commodi minus doloremque nisi omnis, ea
-              et fugit numquam repellendus, vitae, voluptates eveniet iste.
-              officiis similique dolorum explicabo!
+              I'm Balint, a self-taught coder with a TAFE diploma in Business
+              Programming. I love solving real-world problems through data, code
+              and automations. I'm obsessed with optimization and running the
+              leanest possible tech stack.
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ad
-              omnis sed pariatur accusamus. Animi autem, enim in ducimus illum,
-              natus laborum expedita tempora, dolor quisquam ea et voluptate
-              quae.
+              In addition to my passion for coding, I'm also a full-stack
+              solopreneur with over a decade of experience running online
+              businesses.
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ad
-              omnis sed pariatur accusamus. Animi autem, enim in ducimus illum,
-              natus laborum expedita tempora, dolor quisquam ea et voluptate
-              quae.
+              I'm committed to taking my programming skills to the next level.
+              That's why I'm coding every day for a year. Thanks for stopping by
+              my website.
+            </p>
+            <br />
+
+            <p>
+              <a
+                href="mailto:balint.j.korosi@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Say hi in email
+              </a>{" "}
+              if you think we have things in common!
             </p>
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-center text-2xl font-bold mb-6 md:text-left">
-              My skills
-            </h2>
+            <h3 className="text-center  mb-6 md:text-left">My skills</h3>
+
             <div className="flex flex-wrap flex-row justify-center md:justify-start">
               {skills.map((item, idx) => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold dark:text-gray-500"
                   >
                     {item.skill}
                   </p>
@@ -64,12 +90,12 @@ const AboutSection = () => {
               })}
             </div>
             <div>
-              <Image
+              {/* <Image
                 src="/desktop-computer.jpg"
                 alt=""
                 width={325}
                 height={325}
-              ></Image>
+              ></Image> */}
             </div>
           </div>
         </div>
