@@ -15,7 +15,7 @@ const HeroSection = () => {
             alt=""
             width={325}
             height={325}
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl p-2 dark:bg-orange-300 border "
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
@@ -42,8 +42,9 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-
-      <GithubStreak />
+      <div className="dark:bg-slate-900">
+        <GithubStreak />
+      </div>
 
       <div className="flex flex-row items-center text-center justify-center ">
         <Link
